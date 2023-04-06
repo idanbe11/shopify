@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #12101D;
+  background-color: #1A3D73;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,6 +39,7 @@
     margin-left: 1rem; /* Reduce this value to bring the icons closer to the logo */
     cursor: pointer;
     font-size: 1.2rem;
+    font-weight: 700;
   }
   
   .navbar__links a {
@@ -48,7 +49,7 @@
   }
   
   .navbar__links a:hover {
-    color: #ddd;
+    color: #FF8C00;
   }
   .navbar__social {
     display: flex;

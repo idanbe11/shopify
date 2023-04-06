@@ -5,8 +5,8 @@ import '../App.css';
 const Services = () => {
 
     return (
-        <div>
-           <div id="services" className="section">
+        <div id="services" className="section">
+           <div className='servicesBackground'>
                 <h1>השירותים שלנו</h1>
                 <div className="services-grid">
                 <div className="services-column">

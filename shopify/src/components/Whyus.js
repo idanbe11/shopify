@@ -1,16 +1,31 @@
 import React from 'react';
 import '../App.css';
+import team from '../assets/images/image.jpg';
 
 
 const Whyus = () => {
 
     return (
-        <div>
-           <div id="whyus" className="section">
-                <h1>למה אנחנו</h1>
-                <h2>כותרת קטנה לכפתור למה אנחנו</h2>
-                <h1>כותרת גדולה לכפתור למה אנחנו כן כן</h1>
-                <p>פסקה לכפתור למה אנחנו לורם לורם לרום בואו שבו ילדים אספר לכם סיפור ממש ממש נחמד כן כן מה שאתם שומעים נספר לך סיפור יפה יפה לפני הרבה הרבה הרבה שנים בואו שלושה ילדים ששיחקו מייפל סטורי אותם ילדים שבורים חסרי חיים החילטו שהם רוצים להיות מיליונרים מההההה זההההה כן כן מה שאתם שומעים תאמינו בעצמכם ילדים חמודים אם אתם רוצים להגיע לאנשהו בחיים שלכם אז תגיעו</p>
+        <div id="team" className="section">
+            <div className='testimonials'>
+                <h1>המלצות בין לקוחותינו</h1>
+                    <div className="team-grid">
+                        <div className="team-item">
+                        <img src={team} alt="Team member 1" />
+                        <h2>Team Member 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae urna eu nisl sodales accumsan.</p>
+                        </div>
+                        <div className="team-item">
+                        <img src={team} alt="Team member 2" />
+                        <h2>Team Member 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae urna eu nisl sodales accumsan.</p>
+                        </div>
+                        <div className="team-item">
+                        <img src={team} alt="Team member 3" />
+                        <h2>Team Member 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae urna eu nisl sodales accumsan.</p>
+                        </div>
+                    </div>
             </div>
         </div>
       );
