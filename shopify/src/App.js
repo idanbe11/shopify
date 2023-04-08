@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './components/Navbar.js';
 import Home from './components/Home.js';
 import Aboutus from './components/Aboutus.js';
-import Whyus from './components/Whyus.js';
 import Team from './components/Team.js';
 import Services from './components/Services.js';
 import Contact from './components/Contact.js';
@@ -14,7 +13,6 @@ function App() {
       <Navbar />
       <Home />
       <Aboutus />
-      <Whyus />
       <Team />
       <Services />
       <Contact />

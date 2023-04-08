@@ -10,7 +10,7 @@
   padding: 1rem;
   z-index: 1000;
   flex-wrap: wrap;
-
+  direction: rtl;
   }
   
   .navbar--sticky {
@@ -25,20 +25,18 @@
     color: white;
     font-size: 1.5rem;
     margin-right: 1rem; /* Add this line to add some space between the logo and the icons */
-
   }
   
   .navbar__links {
     list-style: none;
     display: flex;
     align-items: center;
-    direction: rtl;
   }
   
   .navbar__links li {
     margin-left: 1rem; /* Reduce this value to bring the icons closer to the logo */
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
   }
   
@@ -54,7 +52,7 @@
   .navbar__social {
     display: flex;
     gap: 1.4rem;
-    margin-right: 30em;
+    margin-right: -35em;
   }
 
   @media screen and (max-width: 1430px) {

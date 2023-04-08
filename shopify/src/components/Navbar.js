@@ -55,7 +55,7 @@ const Navbar = () => {
                 onSetActive={handleSetActive}
                 onSetInactive={handleSetInactive}
                 >
-                דף הבית
+                Home
                 </Link>
             </li>
             <li>
@@ -69,21 +69,7 @@ const Navbar = () => {
                 onSetActive={handleSetActive}
                 onSetInactive={handleSetInactive}
                 >
-                אודות
-                </Link>
-            </li>
-            <li>
-            <Link
-                activeClass="active"
-                to="whyus"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                onSetActive={handleSetActive}
-                onSetInactive={handleSetInactive}
-                >
-                למה אנחנו
+                about us
                 </Link>
             </li>
             <li>
@@ -97,7 +83,7 @@ const Navbar = () => {
                 onSetActive={handleSetActive}
                 onSetInactive={handleSetInactive}
                 >
-                צוות
+                Team
                 </Link>
             </li>
             <li>
@@ -111,7 +97,7 @@ const Navbar = () => {
                 onSetActive={handleSetActive}
                 onSetInactive={handleSetInactive}
                 >
-                שירותים שלנו
+                Our Services 
                 </Link>
             </li>
             <li>
@@ -125,7 +111,7 @@ const Navbar = () => {
                 onSetActive={handleSetActive}
                 onSetInactive={handleSetInactive}
                 >
-                צור קשר
+                Contact us
                 </Link>
             </li>
           </ul>
