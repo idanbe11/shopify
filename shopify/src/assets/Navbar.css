@@ -5,12 +5,15 @@
   right: 0;
   background-color: #1A3D73;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   z-index: 1000;
   flex-wrap: wrap;
   direction: rtl;
+  justify-content: center;
+  }
+  .navbar__side {
+    position: absolute;
   }
   
   .navbar--sticky {
@@ -24,7 +27,7 @@
   .navbar__logo {
     color: white;
     font-size: 1.5rem;
-    margin-right: 1rem; /* Add this line to add some space between the logo and the icons */
+    left: 1rem; /* Position the logo on the left side */
   }
   
   .navbar__links {
@@ -52,7 +55,7 @@
   .navbar__social {
     display: flex;
     gap: 1.4rem;
-    margin-right: -35em;
+    right: 1rem; /* Position the social media icons on the right side */
   }
 
   @media screen and (max-width: 1430px) {

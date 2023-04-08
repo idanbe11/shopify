@@ -26,10 +26,10 @@ const Navbar = () => {
 
     return (
     <nav className={`navbar${sticky ? ' navbar--sticky' : ''}`}>
-          <div className="navbar__logo">
+          <div className="navbar__side navbar__logo">
             <h2>My Navbar</h2>
           </div>
-          <div className="navbar__social">
+          <div className="navbar__side navbar__social">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
             </a>
