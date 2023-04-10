@@ -3,8 +3,6 @@
 }
 .section {
   min-height: 75vh;
-  padding: 2rem;
-  padding-top: 210px; /* Adjust this value based on the height of your navbar */
   box-sizing: border-box;
 }
 .section p {
@@ -101,22 +99,22 @@
     grid-template-columns: 1fr;
   }
 }
+img {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+img:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
 .heroSection{
-  background-color: rgba(26, 61, 115, 0.2);
   position: relative;
-
 }
-
-.heroSection::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+.heroSection img{
+  height: auto;
   width: 100%;
-  height: 100%;
-  background-color: rgba(26, 61, 115, 0.2); /* Adjust the alpha value for the desired opacity */
-  z-index: -1;
 }
+
 .servicesBackground{
   background-color: #F3F3F3;
   color: #1A3D73 ;
